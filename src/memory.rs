@@ -1,6 +1,7 @@
 fn run() {
     let mut mutable_pointer_to_string = String::from("mut str");
     let pointer_to_string = String::from("str");
+    let ref_of_a_str = "str";
 
     println!("{}", mutable_pointer_to_string);
     receive_a_mutable_ref(&mut mutable_pointer_to_string);
